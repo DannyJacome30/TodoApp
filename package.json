@@ -1,12 +1,19 @@
 {
   "name": "todo-list-app",
   "version": "1.0.0",
+  "main": "backend/app.js",
+  "scripts": {
+    "start": "node backend/app.js",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
   "dependencies": {
     "express": "^4.17.1",
     "sqlite3": "^5.0.2",
     "body-parser": "^1.19.0"
   },
-  "scripts": {
-    "start": "cd backend && node app.js"
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "supertest": "^6.3.0"
   }
 }
