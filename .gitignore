@@ -4,5 +4,5 @@
 # Ignore the build directory
 build/
 
-backend/node_modules
-backend/todos.db
+/node_modules
+/backend/todos.db
